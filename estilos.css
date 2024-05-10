@@ -1,0 +1,130 @@
+.container {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    background-image: url(./images/pngtree-jade-green-marble-background-image_402790.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    margin: 0;
+    background-image: url(./images/pngtree-jade-green-marble-background-image_402790.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+}
+.logo img{
+    width: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sub-cont {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.big-title {
+    color: #E1783D;
+    font-weight: 800;
+    max-width: 69%;
+    margin-top: 0;
+}
+.description {
+    color: #888;
+    max-width: 69%;
+}
+.item-blue {
+    padding: 10px 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #E1783D;
+    color: white;
+    text-align: center;
+    width: max-content;
+}
+.item-white {
+    background-color: white;
+    padding: 8% 15% 5% 15%;
+    text-align: center;
+    color: #9f9f9f;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+} 
+.footer-small {
+    background-color: #E1783D;
+    display: inline-flex;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #F0E447;
+}
+.text-footer {
+    color: white;
+    margin-bottom: 10px;
+}
+.text-footer-small {
+    color: white;
+    font-size: 12px;
+}
+
+body {
+    animation: fadein 3s; 
+}
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    50%{
+        opacity:0.5;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@keyframes faseAnimacion {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .card {
+    animation: faseAnimacion 1s ease-in-out forwards;
+  }
+
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .sub-cont {
+        max-width: 100%;
+    }
+    .logo img {
+        padding-left: 15px;
+    }
+    .big-title {
+        max-width: 80%;
+    }
+    .description {
+        max-width: 80%;
+        font-size: 20px;
+    }
+    .item-blue {
+        margin-top: -597px;
+        border-radius: 0px;
+        width: 100%;
+    }
+    .item-white {
+        border-radius: 0px;
+    }
+    .footer-small {
+        width: auto;
+        display: block;
+        padding: 10px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .text-footer {
+        width: max-content;
+    }
+    .text-footer-small {
+        width: max-content;
+    }
+  }
